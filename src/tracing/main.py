@@ -12,8 +12,8 @@ logfire.instrument_openai_agents()
 
 # GEMINI API KEY
 GEMINI_MODEL = "gemini-2.0-flash"
-GEMINI_API_KEY = "AIzaSyBvfElPEA0pW0cYnjaTzZO4hRMjI7tq6no"
-GEMINI_BASE_URL = ""
+GEMINI_API_KEY = ""
+GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 # set_tracing_disabled(disabled=True)
 
