@@ -1,0 +1,23 @@
+[project]
+name = "31-august-2025-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anas Seth", email = "m.anasseth00@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "logfire[httpx]>=4.3.6",
+    "openai-agents>=0.2.10",
+]
+
+[project.scripts]
+31-august-2025-2 = "31_august_2025_2:main"
+tracing = "tracing.main:start"
+custom-runner = "custom_runner.main:start"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
